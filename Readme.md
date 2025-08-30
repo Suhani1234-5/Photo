@@ -266,19 +266,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Inspired by **Life4Cuts** and **BeautyPlus** photo booths
 - **OpenCV** community for computer vision tools
 - **Pillow** for image processing capabilities
 - All contributors who make this project better! ✨
 
-## 📬 Connect
+<!-- ## 📬 Connect
 
 Created with 💜 by [Your Name]
 
 - 🌐 Website: [your-website.com]
 - 📧 Email: [your-email@domain.com]
 - 🐙 GitHub: [@yourusername]
-- 📱 Instagram: [@yourhandle]
+- 📱 Instagram: [@yourhandle] -->
 
 ---
 
