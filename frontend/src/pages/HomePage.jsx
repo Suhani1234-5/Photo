@@ -17,12 +17,24 @@ export default function HomePage() {
         <div className="home-content">
           <div className="photo-strip left">
             <div className="strip-frame">
-              <div className="photo-slot"></div>
-              <div className="photo-slot"></div>
-              <div className="photo-slot"></div>
-              <div className="photo-slot"></div>
-              <div className="photo-slot"></div>
-              <div className="photo-slot"></div>
+              <div className="photo-slot">
+                <img src="https://i.pinimg.com/600x315/eb/61/99/eb61990e12cce87feb78ec8fcf139bf9.jpg" alt="slot 2" />
+              </div>
+              <div className="photo-slot">
+                  <img src="https://i.pinimg.com/600x315/eb/61/99/eb61990e12cce87feb78ec8fcf139bf9.jpg" alt="slot 2" />
+              </div>
+              <div className="photo-slot">
+                <img src="https://i.pinimg.com/600x315/eb/61/99/eb61990e12cce87feb78ec8fcf139bf9.jpg" alt="slot 2" />
+              </div>
+              <div className="photo-slot">
+                <img src="https://i.pinimg.com/600x315/eb/61/99/eb61990e12cce87feb78ec8fcf139bf9.jpg" alt="slot 2" />
+              </div>
+              <div className="photo-slot">
+                 <img src="https://i.pinimg.com/600x315/eb/61/99/eb61990e12cce87feb78ec8fcf139bf9.jpg" alt="slot 2" />
+              </div>
+              <div className="photo-slot">
+  <img src="https://i.pinimg.com/600x315/eb/61/99/eb61990e12cce87feb78ec8fcf139bf9.jpg" alt="slot 2" />
+              </div>
             </div>
             <div className="strip-footer">photobooth</div>
           </div>
@@ -44,12 +56,24 @@ export default function HomePage() {
           
           <div className="photo-strip right">
             <div className="strip-frame">
-              <div className="photo-slot"></div>
-              <div className="photo-slot"></div>
-              <div className="photo-slot"></div>
-              <div className="photo-slot"></div>
-              <div className="photo-slot"></div>
-              <div className="photo-slot"></div>
+              <div className="photo-slot">
+                <img src="https://media.istockphoto.com/id/2148737412/photo/happy-girls-taking-a-selfie-photo-for-social-media-group-of-women-students-smiling-at.jpg?s=612x612&w=0&k=20&c=kqPPEJfMG8DctEEGCGBdj6K4R0l9J-Ehaa6xQ-oDm9w=" alt="slot 2" />
+              </div>
+              <div className="photo-slot">
+                <img src="https://media.istockphoto.com/id/2148737412/photo/happy-girls-taking-a-selfie-photo-for-social-media-group-of-women-students-smiling-at.jpg?s=612x612&w=0&k=20&c=kqPPEJfMG8DctEEGCGBdj6K4R0l9J-Ehaa6xQ-oDm9w=" alt="slot 2" />
+              </div>
+              <div className="photo-slot">
+                <img src="https://media.istockphoto.com/id/2148737412/photo/happy-girls-taking-a-selfie-photo-for-social-media-group-of-women-students-smiling-at.jpg?s=612x612&w=0&k=20&c=kqPPEJfMG8DctEEGCGBdj6K4R0l9J-Ehaa6xQ-oDm9w=" alt="slot 2" />
+              </div>
+              <div className="photo-slot">
+                 <img src="https://media.istockphoto.com/id/2148737412/photo/happy-girls-taking-a-selfie-photo-for-social-media-group-of-women-students-smiling-at.jpg?s=612x612&w=0&k=20&c=kqPPEJfMG8DctEEGCGBdj6K4R0l9J-Ehaa6xQ-oDm9w=" alt="slot 2" />
+              </div>
+              <div className="photo-slot">
+                 <img src="https://media.istockphoto.com/id/2148737412/photo/happy-girls-taking-a-selfie-photo-for-social-media-group-of-women-students-smiling-at.jpg?s=612x612&w=0&k=20&c=kqPPEJfMG8DctEEGCGBdj6K4R0l9J-Ehaa6xQ-oDm9w=" alt="slot 2" />
+              </div>
+              <div className="photo-slot">
+                 <img src="https://media.istockphoto.com/id/2148737412/photo/happy-girls-taking-a-selfie-photo-for-social-media-group-of-women-students-smiling-at.jpg?s=612x612&w=0&k=20&c=kqPPEJfMG8DctEEGCGBdj6K4R0l9J-Ehaa6xQ-oDm9w=" alt="slot 2" />
+              </div>
             </div>
             <div className="strip-footer">photobooth</div>
           </div>
