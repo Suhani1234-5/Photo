@@ -1,35 +1,57 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { useState } from 'react';
+import HomePage from './pages/HomePage.jsx';
+import LayoutPage from './pages/LayoutPage.jsx';
+import CapturePage from './pages/CapturePage.jsx';
+import CustomizePage from './pages/CustomizePage.jsx';
+import AboutPage from './pages/AboutPage.jsx';
+import './App.css';
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const [selectedLayout, setSelectedLayout] = useState('layout-a');
+  const [capturedPhotos, setCapturedPhotos] = useState([]);
+  const [selectedFilter, setSelectedFilter] = useState('none');
+  const [selectedFrameColor, setSelectedFrameColor] = useState('blue1');
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route 
+          path="/choose-layout" 
+          element={
+            <LayoutPage 
+              selectedLayout={selectedLayout}
+              setSelectedLayout={setSelectedLayout}
+            />
+          } 
+        />
+        <Route 
+          path="/capture" 
+          element={
+            <CapturePage 
+              selectedLayout={selectedLayout}
+              capturedPhotos={capturedPhotos}
+              setCapturedPhotos={setCapturedPhotos}
+              selectedFilter={selectedFilter}
+              setSelectedFilter={setSelectedFilter}
+            />
+          } 
+        />
+        <Route 
+          path="/customize" 
+          element={
+            <CustomizePage 
+              capturedPhotos={capturedPhotos}
+              selectedFilter={selectedFilter}
+              selectedFrameColor={selectedFrameColor}
+              setSelectedFrameColor={setSelectedFrameColor}
+            />
+          } 
+        />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
-
-export default App
