@@ -301,10 +301,10 @@ const PrivacyPolicy = () => {
             <h3 style={{ margin: '0 0 1rem 0', fontSize: 'clamp(1.1rem, 3vw, 1.3rem)' }}>📧 Questions or Concerns?</h3>
             <p style={{ margin: '0', opacity: '0.9', fontSize: 'clamp(0.85rem, 2vw, 1rem)' }}>
               If you have any questions about this Privacy Policy or our data practices, 
-              please contact us through our GitHub repository or support channels.
+              please contact us through our Contact Us or support channels.
             </p>
             <div style={{ marginTop: '1rem', fontSize: 'clamp(0.75rem, 1.8vw, 0.9rem)', opacity: '0.8' }}>
-              <p style={{ margin: '0.5rem 0' }}>🌐 GitHub: aesthetic-photo-booth</p>
+              <p style={{ margin: '0.5rem 0' }}>🌐 Contact Us</p>
               <p style={{ margin: '0.5rem 0' }}>📱 Support: Available in our documentation</p>
             </div>
           </div>
