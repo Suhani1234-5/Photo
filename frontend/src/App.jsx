@@ -5,6 +5,7 @@ import LayoutPage from './pages/LayoutPage.jsx';
 import CapturePage from './pages/CapturePage.jsx';
 import CustomizePage from './pages/CustomizePage.jsx';
 import AboutPage from './pages/AboutPage.jsx';
+import PrivacyPolicy from './pages/PrivacyPolicy.jsx';
 import './App.css';
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
         <Route 
           path="/choose-layout" 
           element={

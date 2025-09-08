@@ -2,11 +2,11 @@ import { Link, useLocation } from 'react-router-dom';
 
 export default function Navigation() {
   const location = useLocation();
-  
+
   const navItems = [
     { path: '/', label: 'home' },
     { path: '/about', label: 'about' },
-    { path: '/privacy-policy', label: 'privacy policy' },
+    { path: '/PrivacyPolicy', label: 'privacy policy' },
     { path: '/contact', label: 'contact' },
     { path: '/choose-layout', label: 'choose layout' }
   ];
